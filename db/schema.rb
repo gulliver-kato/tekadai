@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 2018_10_05_035232) do
   end
 
   create_table "assigns", force: :cascade do |t|
-    t.bigint "user_id", null: false
+    t.bigint "user_i d", null: false
     t.bigint "team_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
